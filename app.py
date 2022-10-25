@@ -20,8 +20,8 @@ if login.isLogged():
     print('=== Tinder Perform ===')
     while True:
         bot.perform()
-        igFinder.findAndSaveInstagramNick()
-        snapFinder.findAndSaveSnapchatNick()
+        # igFinder.findAndSaveInstagramNick()
+        # snapFinder.findAndSaveSnapchatNick()
         if bot.getTotalActions() % 10 == 0:
             print(bot, igFinder, snapFinder)
 else:
